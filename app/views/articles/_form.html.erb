@@ -1,0 +1,7 @@
+<%= form_with model: @article do |x| %>
+  <%= x.label :title %>
+  <%= x.text_field :title %>
+  <%= x.label :content  %>
+  <%= x.text_field :content %>
+  <%= x.submit %>
+<% end %>
